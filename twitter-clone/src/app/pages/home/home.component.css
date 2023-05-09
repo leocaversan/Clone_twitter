@@ -1,0 +1,15 @@
+.new-post{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: end;
+}
+.tweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
