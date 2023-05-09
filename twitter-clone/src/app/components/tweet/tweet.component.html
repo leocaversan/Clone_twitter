@@ -2,10 +2,8 @@
 	<div class="conteiner" *ngFor="let tweet of tweetsListMessages; let i = index"(click)="messagesService.removeMessage(i)">
 		<div class="conteiner__message">
 
-			<!-- avatar circle -->
 			<app-avatar />
 
-			<!-- message -->
 			<div>
 				<p>{{tweet}}</p>
 			</div>

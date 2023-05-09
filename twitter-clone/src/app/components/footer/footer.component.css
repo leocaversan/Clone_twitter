@@ -10,6 +10,7 @@
 .conteiner__footer > p{
     --tw-text-opacity: 1;
     color: rgb(75 85 99 / var(--tw-text-opacity));
+    font-family: monospace;
 }
 .conteiner__footer > a{
     --tw-text-opacity: 1;
@@ -21,9 +22,6 @@
     --tw-text-opacity: 1;
     color: rgb(59 130 246 / var(--tw-text-opacity));
 }
-
-
-
 @media (min-width: 640px) {
     .container {
         max-width: 640px;

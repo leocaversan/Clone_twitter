@@ -2,13 +2,9 @@
 
 	<div class="conteiner__avatar-cicle">
 
-		<!-- avatar circle -->
 		<app-avatar />
 
-		<!-- form -->
 		<div class="conteiner__form">
-
-			<!-- textarea -->
 			
 			<textarea (keyup.enter)="sendTweet()" [(ngModel)]="tweetMessage" (input)="changeTweet()"
 				[maxlength]="tweetMaxLength" class="conteiner__text-area" 
@@ -16,32 +12,15 @@
 
 			</textarea>
 
-
-
-
-			<!-- <textarea (keyup.enter)="sendTweet()"
-				(ngModel)="tweetMessage" (input)="changeTweet()" [maxLength]="tweetMaxLength"
-				class="conteiner__text-area"
-				rows="3"
-				placeholder="What's happening...">
-
-			</textarea> -->
-			<!-- <input type="text" [(ngModel)]="tweetMessage"> -->
-			<!-- <input type="text" value="What's happening..." autocomplete="on" maxlength="254" min="1" required 
-			class=" conteiner__text-area"> -->
-			<!-- divider line -->
 			<div class="conteiner__divid-line">
 			</div>
 
-			<!-- interactive -->
 			<div class="conteiner__interactive">
 
-				<!-- count chars -->
 				<div class="conteiner__count-characters">
 					<p>{{tweetRemain}}</p>
 				</div>
 
-				<!-- button -->
 				<div class="mt-5">
 					<button (click)="sendTweet()" type="button" class="conteiner__button-send-tweet">
 						Tweet

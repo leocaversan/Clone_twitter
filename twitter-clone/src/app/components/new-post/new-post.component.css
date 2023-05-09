@@ -15,7 +15,6 @@
     justify-content: center;
     width: 100%;
 }
-
 .conteiner__form{
     flex: 1 1 0%;
 }
@@ -38,7 +37,6 @@
     color: rgb(55 65 81 / var(--tw-placeholder-opacity));
     background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
-
 .conteiner__text-area:focus{
     outline: 2px solid transparent;
     outline-offset: 2px;
